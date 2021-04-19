@@ -43,8 +43,8 @@ h4 {
     font-size: 1.2rem;
     font-weight: 400;
     padding-top: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
     text-align: justify;
 } 
 
@@ -227,7 +227,7 @@ h4 {
 }
 
 .nav-item {
-    margin-right: 40px;
+    margin-right: 70px;
     font-size: 1.5rem;
 }
 
@@ -360,7 +360,7 @@ nav .button-size-text {
 /*--------------------Feature*/
 
 .feature {
-    margin: 0;
+    margin: 0 10% 10%;
 }
 
 .feature h3 {
@@ -435,7 +435,7 @@ nav .button-size-text {
 
 /*--------------------Gallery*/
 .gallery {
-    margin: 5% 8%;
+    margin: 5% 15%;
     padding: 2%;
 }
 
