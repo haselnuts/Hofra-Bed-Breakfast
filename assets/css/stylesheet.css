@@ -360,7 +360,7 @@ nav .button-size-text {
 /*--------------------Feature*/
 
 .feature {
-    margin: 0 10% 10%;
+    margin: 0 10%;
 }
 
 .feature h3 {
@@ -369,7 +369,7 @@ nav .button-size-text {
 }
 .feature-bg-color {
     background-color: #F2F2F2;
-    box-shadow: 2px 2px 5px #435159;
+    box-shadow: 5px 5px 5px #cbcbcb;
 }
 .row-wrap {
     display: flex;
@@ -391,9 +391,8 @@ nav .button-size-text {
 }
 
 #packages {
-    margin: 5% 8%;
+    margin: 5% 0;
     padding-top: 2%;
-    padding-bottom: 3%;
 }
 
 #packages-h2{
@@ -407,7 +406,7 @@ nav .button-size-text {
 
 .packages-offer {
     padding: 3% 3%;
-    box-shadow: 2px 2px 5px #435159;
+    box-shadow: 5px 5px 5px #cbcbcb;
 }
 
 .feature li {
@@ -577,7 +576,7 @@ form input {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 4%;
-    box-shadow: 2px 2px 5px #435159;
+    box-shadow: 5px 5px 5px #cbcbcb;
     border: 0;
 }
 
@@ -595,7 +594,7 @@ form .row div:nth-child(2) {
     margin: auto 2%;
     width: 95%;
     height: 150px;
-    box-shadow: 2px 2px 5px #435159;
+    box-shadow: 5px 5px 5px #cbcbcb;
     border: 0;
 }
 
@@ -750,6 +749,10 @@ form .row div:nth-child(2) {
         font-size: 1.7rem;
     }
 
+    .feature {
+        margin: 0;
+    }
+
     .feature-h2-left-center {
         text-align: center; 
         line-height: 1.5;
@@ -780,11 +783,6 @@ form .row div:nth-child(2) {
         font-size: 0.9rem;
     }
 
-    .feature {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
     .feature-space-index {
     margin: 100px 0;
     }
@@ -808,8 +806,6 @@ form .row div:nth-child(2) {
 
     #packages {
         margin-top: 10%;
-        margin-left: 27%;
-        margin-right: 27%;
     }
 
     .packages-offer {
@@ -928,6 +924,7 @@ form .row div:nth-child(2) {
     #packages {
     margin-left: 15%;
     margin-right: 15%;
+    padding-bottom: 5%;
     }
 
     #packages .col-md-4 {
@@ -996,6 +993,12 @@ form .row div:nth-child(2) {
     #packages {
     margin-left: 5%;
     margin-right: 5%;
+    }
+
+    .feature {
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .column {
