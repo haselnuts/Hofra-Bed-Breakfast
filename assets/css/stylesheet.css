@@ -189,6 +189,37 @@ h4 {
     min-height: 300px;
 }
 
+.dellendistrict-vinter-one {
+    background: url("../images/dellendistrict-vinter1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 200px;
+}
+
+.dellendistrict-vinter-two {
+    background: url("../images/dellendistrict-vinter2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 200px;
+}
+
+.dellendistrict-vinter-three {
+    background: url("../images/dellendistrict-vinter3.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 150px;
+}
+
+.dellendistrict-vinter-four {
+    background: url("../images/dellendistrict-vinter4.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    min-height: 150px;
+}
 
 .quotes-girl {
     background: url("../images/quotes-girl.jpg") no-repeat;
@@ -289,7 +320,7 @@ nav .button-size-text {
     margin-right: 10px;  
 }
 
-.boka-button .btn,
+.book-button .btn,
 .send-button .btn {
     background-color: #ae5d57;
     border-color: #ae5d57;
@@ -303,7 +334,7 @@ nav .button-size-text {
     width: fit-content;
 }
 
-.boka-button .btn:hover,
+.book-button .btn:hover,
 .send-button .btn:hover {
     background-color: #ae5d57;
     border-color: #ae5d57;
@@ -329,20 +360,17 @@ nav .button-size-text {
     background-color: #FCFAFA;
     border: 0;
     margin: 0;
-    padding: 0;
-     text-align: right;
+    padding: 5px;
+    text-align: right;
 }
 
 .back-to-top a {
-    color: #435159;
-}
-
-.back-to-top a:hover {
     color: #ae5d57;
 }
 
-.boka-button {
-    margin-bottom: 100px;
+
+.book-button {
+    margin: 40px auto 80px;
     text-align: center;
 }
 
@@ -360,7 +388,7 @@ nav .button-size-text {
 /*--------------------Feature*/
 
 .feature {
-    margin: 0 10%;
+    margin: 0 10% 10%;
 }
 
 .feature h3 {
@@ -453,22 +481,22 @@ nav .button-size-text {
   -ms-flex: 50%;
   flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
-  margin-top: 20px;
+  padding: 0 2px;
+  margin: 20px 0;
 }
 
-.column img {
+.column div {
   vertical-align: middle;
   width: 100%;
 }
 
-.column-wintertime img {
+.column-wintertime div {
   vertical-align: middle;
   width: 100%;
 }
 
 figure {
-    margin-bottom: 0.5rem;
+    margin-bottom: 2px;
 }
 
 /*--------------------Quotes*/
@@ -735,10 +763,6 @@ form .row div:nth-child(2) {
     .hero-image-contact {
         max-height: 350px;
         margin-top: 10px;
-    }
-
-    .dellendistrict-events {
-        margin-bottom: 0px;
     }
 
     h1 {
